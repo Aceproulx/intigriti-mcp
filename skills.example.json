@@ -1,0 +1,10 @@
+{
+  "skills": [
+    { "skill": "idor", "weight": 0.9, "appliesTo": ["api", "url"] },
+    { "skill": "ssrf", "weight": 0.8, "appliesTo": ["api", "url"] },
+    { "skill": "auth-bypass", "weight": 0.85, "appliesTo": ["api", "url", "android", "ios"] },
+    { "skill": "api-abuse", "weight": 0.9, "appliesTo": ["api"] },
+    { "skill": "mobile-android", "weight": 0.7, "appliesTo": ["android"] },
+    { "skill": "xxe", "weight": 0.6, "appliesTo": ["api", "url"] }
+  ]
+}

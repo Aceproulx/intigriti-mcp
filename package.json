@@ -1,0 +1,26 @@
+{
+  "name": "intigriti-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Intigriti bug bounty programs: scope tracking, diffing, and skill-based program recommendation",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "intigriti-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["mcp", "intigriti", "bug-bounty"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.3.0",
+    "typescript": "^7.0.2"
+  }
+}
